@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResManSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5a29cc7179bbb23edf1313a39b99fc4da72f355")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff5befa96a80809c463f82033fe669523320f75f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResManSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResManSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
