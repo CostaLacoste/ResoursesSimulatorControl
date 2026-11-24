@@ -15,33 +15,7 @@ struct ResourceBundle
         Food = food;
     }
 
-    public ResourceBundle Add(ResourceBundle other)
-    {
-        return new ResourceBundle(
-            Wood + other.Wood,
-            Stone + other.Stone,
-            Food + other.Food
-        );
-    }
-
-    public override string ToString()
-    {
-        return $"Дерево: {Wood}, Камень: {Stone}, Еда: {Food}";
-    }
-}
-{
-    public int Wood { get; }
-    public int Stone { get; }
-    public int Food { get; }
-
-    public ResourceBundle(int wood, int stone, int food)
-    {
-        Wood = wood;
-        Stone = stone;
-        Food = food;
-    }
-
-    // Возвращает новый набор ресурсов, не ломая исходные значения
+    // Возвращает новый набор ресурсов, не изменяя исходные значения
     public ResourceBundle Add(ResourceBundle other)
     {
         return new ResourceBundle(
@@ -69,6 +43,7 @@ abstract class Building : IUpgradable
     public string Name { get; protected set; }
 
     private int level;
+
     public int Level
     {
         get => level;
@@ -81,7 +56,7 @@ abstract class Building : IUpgradable
         Level = initialLevel;
     }
 
-    // Каждое конкретное здание само решает, сколько и каких ресурсов добывать
+    // Каждое здание само определяет, сколько и каких ресурсов добывать
     public abstract ResourceBundle Produce();
 
     public abstract ResourceBundle GetUpgradeCost();

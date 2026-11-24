@@ -12,3 +12,4 @@
 /Users/bogdanm/Documents/C#/Resource management simulator/ResManSim/obj/Debug/net10.0/ResManSim.pdb
 /Users/bogdanm/Documents/C#/Resource management simulator/ResManSim/obj/Debug/net10.0/ResManSim.genruntimeconfig.cache
 /Users/bogdanm/Documents/C#/Resource management simulator/ResManSim/obj/Debug/net10.0/ref/ResManSim.dll
+/Users/bogdanm/Documents/C#/Resource management simulator/ResManSim/obj/Debug/net10.0/ResManSim.sourcelink.json
